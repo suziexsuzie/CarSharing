@@ -1,0 +1,14 @@
+.cta {
+  background-color: black;
+  .container {
+    display: flex;
+    flex-direction: column;
+    color: var(--contrast-color);
+    h1 {
+      font-family: var(--font-main);
+      font-weight: 900;
+      font-size: 60px;
+      text-transform: uppercase;
+    }
+  }
+}

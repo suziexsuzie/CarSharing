@@ -1,0 +1,32 @@
+h1.subtitle {
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--text-color-contrast);
+  margin: 10px 0 10px 0;
+  letter-spacing: 0.5px;
+  line-height: 150%;
+
+  &:before, &:after {
+    background-color: var(--accent-color);
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+    border-radius: 5px;
+  }
+
+  &:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+  &:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+}

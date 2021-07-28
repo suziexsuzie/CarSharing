@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800;900&display=swap');
+@import "reset";
+@import "logo";
+@import "header";
+@import "cta";
+@import "blog";
+@import "service";
+@import "footer";
+@import "subtitle";
+@import "btn";
+
+:root {
+  --font-main: "Nunito Sans", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
+  --accent-color: #FF0000;
+  --contrast-color: #FFFFFF;
+  --text-color: #6A6A6A;
+  --text-color-contrast: black;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 1080px;
+  min-width: 900px;
+  margin: auto;
+}

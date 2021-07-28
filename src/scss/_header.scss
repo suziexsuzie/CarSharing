@@ -1,0 +1,21 @@
+header {
+  background-color: black;
+  padding: 20px 0 20px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    nav a {
+      font-family: var(--font-main);
+      font-weight: 400;
+      font-size: 16px;
+      padding: 5px;
+      margin: 5px 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--contrast-color);
+    }
+  }
+}

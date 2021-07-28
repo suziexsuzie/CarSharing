@@ -1,0 +1,16 @@
+.btn {
+  font-family: var(--font-main);
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--contrast-color);
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  padding: 10px 30px;
+  margin: 15px 0;
+  box-shadow: 0 3px 6px #FF00004D;
+  background-color: var(--accent-color);
+  border-radius: 40px;
+  &:hover {
+    color: var(--text-color-contrast);
+  }}
