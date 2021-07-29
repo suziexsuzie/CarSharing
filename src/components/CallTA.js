@@ -1,8 +1,8 @@
 import React from "react";
 
 const CallTA = () => {
-    return <section className="cta" id="#main">
-        <div className="container">
+    return <section className="cta" id="main">
+        <div className="container cta-container">
             <h1>Car Sharing</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dignissimos exercitationem fugit
                 pariatur quis ratione repellat voluptates?</p>

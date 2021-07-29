@@ -5,6 +5,7 @@
 @import "cta";
 @import "blog";
 @import "service";
+@import "contact";
 @import "footer";
 @import "subtitle";
 @import "btn";
@@ -14,8 +15,10 @@
   --font-secondary: "Open Sans", sans-serif;
   --accent-color: #FF0000;
   --contrast-color: #FFFFFF;
+  --secondary-bgc: #28272C;
   --text-color: #6A6A6A;
-  --text-color-contrast: black;
+  --text-col-contrast: black;
+  --text-col-less-contrast: #B2B2B2;
 }
 
 body {
@@ -24,7 +27,7 @@ body {
 
 .container {
   width: 80%;
-  max-width: 1080px;
+  max-width: 1440px;
   min-width: 900px;
   margin: auto;
 }

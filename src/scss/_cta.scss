@@ -1,14 +1,30 @@
 .cta {
   background-color: black;
-  .container {
+  .cta-container {
     display: flex;
     flex-direction: column;
     color: var(--contrast-color);
+    position: relative;
+
     h1 {
       font-family: var(--font-main);
       font-weight: 900;
       font-size: 60px;
       text-transform: uppercase;
     }
+  }
+  .cta-container::after {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    background-image: url("../assets/Icon Arrow Down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -22.5px;
+    left: calc(50% - 22.5px);
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import {Link} from 'gatsby'
 
 const Footer = () => {
     return (
@@ -8,16 +9,39 @@ const Footer = () => {
                 <Logo/>
                 <div className="content">
                     <nav>
-                        <ul>
-                            <li><a href="#main">Home page</a></li>
-                            <li><a href="">About us</a></li>
-                            <li><a href="">Gallery</a></li>
-                            <li><a href="">Share regulation</a></li>
-                            <li><a href="">Price</a></li>
-                            <li><a href="">Our fleet</a></li>
-                            <li><a href="">Our clients</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
+
+                            <Link activeStyle={{
+                                color: "red",
+                                fontWeight: 700
+                            }} exact={true} activeClassName="active" to='/'>Home page</Link>
+                        <Link activeStyle={{
+                            color: "red",
+                            fontWeight: 700
+                        }} exact={true} activeClassName="active" to=''>About us</Link>
+                        <Link activeStyle={{
+                            color: "red",
+                            fontWeight: 700
+                        }} exact={true} activeClassName="active" to=''>Gallery</Link>
+                        <Link activeStyle={{
+                            color: "red",
+                            fontWeight: 700
+                        }} exact={true} activeClassName="active" to=''>Share regulation</Link>
+                        <Link activeStyle={{
+                            color: "red",
+                            fontWeight: 700
+                        }} exact={true} activeClassName="active" to=''>Price</Link>
+                        <Link activeStyle={{
+                            color: "red",
+                            fontWeight: 700
+                        }} exact={true} activeClassName="active" to=''>Our fleet</Link>
+                        <Link activeStyle={{
+                            color: "red",
+                            fontWeight: 700
+                        }} exact={true} activeClassName="active" to=''>Our clients</Link>
+                        <Link activeStyle={{
+                            color: "red",
+                            fontWeight: 700
+                        }} exact={true} activeClassName="active" to='#contact'>Contact</Link>
                     </nav>
                 </div>
             </div>
